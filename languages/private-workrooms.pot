@@ -1,0 +1,449 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Private Workrooms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-07 09:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: templates/admin/settings/status.php:10
+msgid " Checkout Page"
+msgstr ""
+
+#: templates/admin/settings/status.php:9
+msgid " My Account Page"
+msgstr ""
+
+#: templates/admin/settings/status.php:6
+msgid " PHP Version 5.6.0+"
+msgstr ""
+
+#: templates/admin/settings/status.php:7
+msgid " WordPress Version 4.1.0+"
+msgstr ""
+
+#: templates/single/estimate/estimate-form-content.php:29
+msgid "99.99"
+msgstr ""
+
+#: templates/front/modal.php:44
+msgid "Access denied"
+msgstr ""
+
+#: templates/front/modal.php:54
+msgid "Access restricted"
+msgstr ""
+
+#: templates/admin/settings/license.php:10
+msgid "Activate my license"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:116
+#: admin/class-private-workrooms-admin.php:117
+msgid "Add New Workroom"
+msgstr ""
+
+#: templates/front/before-modal-content.php:25
+msgid "Authorization"
+msgstr ""
+
+#: templates/front/login-form.php:30
+msgid "Authorize & Proceed"
+msgstr ""
+
+#: templates/front/lost-password.php:30
+msgid "Back to Authorization"
+msgstr ""
+
+#: templates/single/meta/default.php:22
+msgid "Client:"
+msgstr ""
+
+#: templates/single/comment-form.php:26
+msgid "Comment can't be empty"
+msgstr ""
+
+#: templates/single/sidebar/demo.php:35
+msgid "Compare FREE vs. PRO"
+msgstr ""
+
+#: templates/single/sidebar/details.php:30
+msgid "Completed"
+msgstr ""
+
+#: templates/single/single-private_workroom.php:79
+#, php-format
+msgid "Conversation just started"
+msgid_plural "Page %s / %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-private-workrooms-admin.php:310
+#: templates/single/new_room_form.php:22
+msgid "Create a title for your project"
+msgstr ""
+
+#: templates/front/before-modal-content.php:25
+msgid "Create an account"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:33
+#: templates/single/sidebar/estimate.php:50
+msgid "Current estimate"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:192
+msgid "Customer"
+msgstr ""
+
+#: templates/single/meta/default.php:21
+msgid "Date:"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:303
+#: templates/single/new_room_form.php:26
+msgid "Describe your project in as much detail as possible"
+msgstr ""
+
+#: templates/single/estimate/estimate-form-content.php:33
+msgid "Description"
+msgstr ""
+
+#: templates/front/lost-password.php:27
+msgid "E-mail"
+msgstr ""
+
+#: templates/front/login-form.php:42
+msgid "e-mail"
+msgstr ""
+
+#: templates/front/login-form.php:41
+msgid "E-mail Address"
+msgstr ""
+
+#: templates/front/lost-password.php:26
+msgid "E-mail address"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:311
+#: templates/single/new_room_form.php:23
+msgid "e.g. I need my WordPress website fixed"
+msgstr ""
+
+#: templates/single/estimate/estimate-form-content.php:25
+msgid "e.g. Website fixes"
+msgstr ""
+
+#: public/class-private-workrooms-public.php:235
+msgid "estimate deleted"
+msgstr ""
+
+#: templates/single/sidebar/details.php:32
+msgid "Estimate Provided"
+msgstr ""
+
+#: public/class-private-workrooms-public.php:231
+msgid "estimate provided"
+msgstr ""
+
+#: templates/front/modal.php:42 templates/front/modal.php:50
+#: templates/front/modal.php:58
+msgid "Free estimate | No obligation to hire | 100% risk-free"
+msgstr ""
+
+#: templates/single/sidebar/demo.php:23
+msgid "Get Private Workrooms Pro!"
+msgstr ""
+
+#: templates/admin/settings/license.php:23
+msgid "Get Pro"
+msgstr ""
+
+#: public/class-private-workrooms-public.php:463
+msgid "Get quote"
+msgstr ""
+
+#: templates/front/modal.php:46
+msgid "Go Home"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pwrooms.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/private-workrooms/"
+msgstr ""
+
+#: templates/single/sidebar/details.php:35
+msgid "In Progress"
+msgstr ""
+
+#: private-workrooms.php:63
+msgid "Install Plugins"
+msgstr ""
+
+#: private-workrooms.php:62
+msgid "Install Required Plugins"
+msgstr ""
+
+#: private-workrooms.php:64
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: templates/front/login-form.php:37 templates/front/login-form.php:38
+msgid "Login"
+msgstr ""
+
+#: includes/class-private-workrooms-templates.php:194
+msgid "Markdown syntax"
+msgstr ""
+
+#: templates/single/single-private_workroom.php:76
+msgid "Most recent comments"
+msgstr ""
+
+#: templates/single/estimate/estimate-form-content.php:24
+msgid "Name of service"
+msgstr ""
+
+#: templates/single/single-private_workroom.php:74
+msgid "No comments yet"
+msgstr ""
+
+#: templates/front/login-form.php:25
+msgid "Password"
+msgstr ""
+
+#: templates/front/modal.php:33
+msgid "Password Recovery"
+msgstr ""
+
+#: templates/front/lost-password.php:22
+msgid "Password recovery"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:44
+msgid "Pay and proceed"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:28
+msgid "Payment received"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:235
+msgid "payment received"
+msgstr ""
+
+#: templates/single/sidebar/details.php:38
+msgid "Pending for reply"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:54
+msgid ""
+"Please submit an estimate if the consultation is over and you both are ready "
+"to proceed."
+msgstr ""
+
+#: templates/single/comment-form.php:25
+msgid "Post Comment"
+msgstr ""
+
+#: templates/single/estimate/estimate-form-content.php:28
+msgid "Price"
+msgstr ""
+
+#: public/class-private-workrooms-public.php:485
+msgid "Private Workroom"
+msgstr ""
+
+#. Name of the plugin
+msgid "Private Workrooms"
+msgstr ""
+
+#. Author of the plugin
+msgid "Private Workrooms Team"
+msgstr ""
+
+#: templates/single/sidebar/demo.php:25
+msgid ""
+"PRO version, empowers you with more professional tools that speed up your "
+"workflow, and allows you to get more conversions and sales!"
+msgstr ""
+
+#: templates/single/sidebar/details.php:28
+msgid "Processing"
+msgstr ""
+
+#: templates/front/login-form.php:46
+msgid "Register & Proceed"
+msgstr ""
+
+#: templates/front/login-form.php:28
+msgid "Remember me"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:42
+msgid "Remove"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:349
+#: public/class-private-workrooms-public.php:322
+#: public/class-private-workrooms-public.php:447
+msgid "Security check failed!"
+msgstr ""
+
+#. Description of the plugin
+msgid "Sell services to your clients and get paid directly on your website!"
+msgstr ""
+
+#: templates/front/lost-password.php:29
+msgid "Send Password"
+msgstr ""
+
+#: private-workrooms.php:66
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: templates/front/modal.php:41 templates/front/modal.php:49
+#: templates/front/modal.php:57
+msgid "Start a project"
+msgstr ""
+
+#: templates/front/modal.php:70
+#: templates/single/estimate/estimate-form-content.php:36
+msgid "Submit & Proceed"
+msgstr ""
+
+#: templates/single/estimate/estimate-form.php:24
+#: templates/single/sidebar/estimate.php:54
+msgid "Submit an estimate"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:266
+msgid "System"
+msgstr ""
+
+#: templates/single/sidebar/demo.php:23
+msgid "This block is visible only to the administrator!"
+msgstr ""
+
+#: templates/front/modal.php:45
+msgid "Unfortunately, you don't have access to view this workroom!"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:42
+msgid "Update an estimate"
+msgstr ""
+
+#: private-workrooms.php:65
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: public/class-private-workrooms-public.php:442
+msgid "User already exists."
+msgstr ""
+
+#: templates/front/login-form.php:24
+msgid "Username"
+msgstr ""
+
+#: templates/front/login-form.php:23
+msgid "Username or E-mail address"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:44
+#: templates/single/sidebar/estimate.php:47
+msgid "View details"
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:30
+msgid "Waiting for payment"
+msgstr ""
+
+#: templates/single/sidebar/details.php:49
+msgid ""
+"We will review the information you provide and will reply shortly. Thank you "
+"for understanding."
+msgstr ""
+
+#: templates/single/sidebar/estimate.php:52
+msgid ""
+"When the time comes and we will be ready to provide you with an estimate, it "
+"will appear here."
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:115
+msgid "Workroom"
+msgstr ""
+
+#: templates/single/sidebar/details.php:23
+#, php-format
+msgid "Workroom #%s"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:182
+msgid "Workroom settings"
+msgstr ""
+
+#: admin/class-private-workrooms-admin.php:114
+msgid "Workrooms"
+msgstr ""
+
+#: includes/class-private-workrooms-templates.php:165
+msgid "Write a reply"
+msgstr ""
+
+#: private-workrooms.php:67 private-workrooms.php:72
+#, php-format
+msgid "You are almost ready to start selling your services! %1$s is required!"
+msgid_plural "Private Workrooms requires: %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/front/modal.php:55
+msgid "You must be logged in to view this private workroom"
+msgstr ""
+
+#: templates/single/sidebar/details.php:47
+msgid "You speak with:"
+msgstr ""
+
+#: templates/admin/settings/license.php:17 templates/single/sidebar/demo.php:29
+msgid "✓ Attachments vault"
+msgstr ""
+
+#: templates/admin/settings/license.php:21 templates/single/sidebar/demo.php:33
+msgid "✓ Dashboards"
+msgstr ""
+
+#: templates/admin/settings/license.php:20 templates/single/sidebar/demo.php:32
+msgid "✓ Email notifications"
+msgstr ""
+
+#: templates/admin/settings/license.php:15 templates/single/sidebar/demo.php:27
+msgid "✓ Form builder"
+msgstr ""
+
+#: templates/admin/settings/license.php:18 templates/single/sidebar/demo.php:30
+msgid "✓ Markdown syntax"
+msgstr ""
+
+#: templates/admin/settings/license.php:19 templates/single/sidebar/demo.php:31
+msgid "✓ Multiple payments method"
+msgstr ""
+
+#: templates/admin/settings/license.php:16 templates/single/sidebar/demo.php:28
+msgid "✓ Online / offline user statuses"
+msgstr ""

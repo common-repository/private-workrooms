@@ -1,0 +1,507 @@
+/**
+ * All of the CSS for your public-facing functionality should be included in this file.
+ */
+
+#pw_modal_holder.pw_room .pw_modal_content{
+	border-radius: 3px;
+	box-shadow: 0 0 60px rgba(0,0,0,.1);
+}
+
+#pw_modal_holder.pw_room #pw_modal_bg {
+	background: #fff
+}
+#pw_modal_holder.pw_logged_in.not_chosen_one.pw_room .pw_modal_content {
+	text-align: center;
+}
+.pw_single_title {
+	margin-top: 0 !important;
+	margin-bottom: 10px;
+	font-size: 28px;
+}
+.comment-author .comment-meta {
+	float: none !important
+}
+.container_holder {
+	margin: 60px auto;
+	
+}
+.pw_avatar, .comments-list .avatar { 
+	border-radius: 100px;
+}
+.pw_post_author_avatar {
+	margin-right: 20px;
+}
+
+.pw_single_holder {
+	padding: 30px 40px 20px 40px;
+	margin-left: 40px;
+	border-left: 1px solid #eaeaea;
+}
+
+.pw_single_meta_holder .pw_single_meta {
+	font-size: 12px;
+}
+.pw_single_meta_holder .pw_single_meta span {
+	color: #999
+}
+.pw_single_meta_holder .pw_single_meta:not(:first-child){
+	margin-left: 20px;
+}
+
+/*Notice*/
+.pw_comment_notice {
+	margin-left: 40px;
+	border-left: 1px solid #eaeaea;
+	padding: 20px 0px 60px 0px;
+}
+.pw_comment_notice.pw_no_comments {
+	padding-bottom: 20px;
+}
+.pw_comment_notice span {
+	color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+	padding: 10px;
+	font-size: 12px;
+}
+
+/*Comments*/
+.comments-list {
+	list-style: none;
+	margin: 0 !important;
+	margin-left: 20px !important;
+	padding: 0;
+	
+}
+
+.avatar {
+	margin-right: 15px;
+}
+.single-private_workrooms .comment-meta {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	min-height: auto;
+}
+.comment-content {
+	padding: 0px 40px;
+	border-left: 1px solid #eaeaea;
+	margin-left: 20px;
+	padding-bottom: 60px;
+}
+.comments-list li:last-child .comment-content {
+	padding-bottom: 20px;
+}
+
+
+/*Comment Form*/
+textarea#pw_comment_content {
+	margin-bottom: 15px;
+	border-color: #ddd;
+}
+.pw_single_comment_form {
+	margin-left: 40px;
+	position: relative;
+}
+.pw_single_comment_form_title {
+	margin-bottom: 40px;
+}
+.pw_single_comment_form_title h4 {
+	margin: 0 !important;
+	line-height: 0 !important
+}
+.pw_single_comment_form .line{
+	display: block;
+	width: 30px;
+	height: 1px;
+	background: #eaeaea;
+	margin-right: 10px;
+}
+.md_syntax {
+	left: 20px;
+	position: absolute;
+	top: -10px;
+	border-bottom: 1px dashed #ccc;
+	font-size: 12px;
+	color: #aaa;
+}
+.md_syntax:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+/*Sidebar*/
+.pw_sidebar > div {
+	margin-bottom: 30px;
+	border: 1px solid #eaeaea;
+	padding: 30px;
+}
+
+.pw_workroom_details_header {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+.pw_sidebar {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+
+/*Pagination*/
+.work_room_navigation {
+	margin-left: 40px;
+	border: 1px solid #eaeaea;
+	display: inline-block;
+	border-left: 0;
+}
+.work_room_navigation nav{
+    border-color: #bee5eb;
+    padding: 10px;
+	padding-left: 0;
+    font-size: 11px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.work_room_navigation * {
+	padding: 5px 7px;
+	text-decoration: none !important
+}
+.work_room_navigation a:hover {
+	text-decoration: none;
+	color: #000
+}
+.work_room_navigation span:not(.dots) {
+	background: #eaeaea;
+	color: #000;
+}
+
+.after_pagination {
+	margin-left: 40px;
+	padding: 30px;
+	border-left: 1px solid #eaeaea;
+}
+
+
+/*Misc*/
+a.pw_btn, input.pw_btn {
+	padding: 10px 20px;
+	border: 1px solid #61ce70;
+	background: #fff;
+	color: #61ce70;
+	font-size: 12px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none !important
+}
+a.pw_btn:hover, input.pw_btn:hover, input.pw_btn:active, input.pw_btn:focus {
+	background: #61ce70;
+	color: #fff;
+	text-decoration: none !important;
+}
+.alert.alert-small {
+	font-size: 11px;
+	padding: 5px 7px;
+	display:inline-block;
+	margin-left: 10px;
+	margin-bottom: 0
+}
+.alert.empty_comment{
+	padding: 10px;
+	margin-left: 15px;
+}
+
+.single-private_workrooms *:active, .single-private_workrooms *:focus {
+	outline: 0 !important;
+}
+
+
+
+.pw_estimate.estimate_provided img {
+	margin: 0 auto
+}
+.pw_estimate.estimate_provided hr {
+	margin: 0 auto
+}
+
+/*Errors*/
+.pw_error {
+	display: none;
+	opacity: 0
+}
+.comment-type_system .comment-meta {
+	font-weight: normal;
+	font-style: italic;
+}
+.comment-type_system .comment-content {
+	padding-bottom:10px;
+}
+.pw_post_author_avatar_system {
+	background: #d1ecf1; width: 24px; margin-left: 10px; margin-right: 10px; height: 24px;
+	border: 1px solid #bee5eb;
+	line-height: 24px;
+}
+.comment-type_system + .comment-type_regular .emp {
+	border-left: 1px solid #eaeaea;
+	margin-left: 20px;
+	padding-top: 60px;
+}
+
+.pw_sidebar > .pw_workroom_details {
+	margin-bottom: 0px; 
+	border-bottom: 0
+}
+.pw_sidebar > .pw_estimate {
+	border-top: 1px dashed #ccc;
+	background: #f9f9f9;
+	text-align: center;
+	position: relative;
+}
+
+/*
+.pw_sidebar > .pw_estimate.estimate_provided{
+	color: #497aae;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.estimate_price {
+	min-width: 100px;
+}
+*/
+
+.pw_estimate_modal {
+	
+}
+.pw_estimate_modal .pw_modal_content {
+	position: absolute !important;
+}
+#pw_modal_holder.pw_room.pw_estimate_modal #pw_modal_bg {
+	background: rgba(0,0,0,0.4);
+}
+#pw_modal_holder.pw_room.pw_estimate_modal .pw_modal_content {
+	box-shadow: 0 0 40px rgba(0,0,0,.5);
+}
+
+#pw_new_estimate_form label.pw_head_label {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#pw_new_estimate_form input[type="text"], #pw_new_estimate_form input[type="password"], #pw_new_estimate_form select, #pw_new_estimate_form textarea, #pw_new_estimate_form input[type="email"], #pw_new_estimate_form input[type="number"]  {
+	padding: 7px 15px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	display: block;
+}
+#pw_new_estimate_form input[type="text"], #pw_new_estimate_form input[type="email"]  {
+	display: block;
+}
+.pw_misc_btn {
+	margin-left: 15px;
+}
+.pw_sidebar > .pw_estimate > .pw_etimate_status {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-style: italic;
+	font-size: 11px;
+	border-radius: 0px;
+	border-top: 0;
+	border-right: 0
+}
+.pw_estimate a.pw_btn:not(.pw_btn_small), .pw_estimate input.pw_btn{
+	background-color: #f9f9f9;
+}
+.pw_estimate a.pw_btn:not(.pw_btn_small):hover, .pw_estimate input.pw_btn:hover{
+	background: #61ce70;
+}
+.pw_estimate_modal ol {
+	margin-bottom: 20px;
+}
+.pw_modal_content {
+	max-height: 90vh;
+	overflow-y: auto;
+}
+
+.comment-content ul, .comment-content ol {
+	margin-bottom: 20px;
+}
+
+
+#pw_modal_wrap {
+	background: rgba(0,0,0,.5);
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;;
+    z-index: 10043;
+    position: fixed;
+    outline: none !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	padding: 200px 0
+
+}
+#pw_modal_holder.pw_estimate_modal {
+    position: absolute;
+    width: 100% !important;
+    height: 1400px;;
+    left: 0;
+    top: 0 !important;
+}
+.pw_modal_content_e {
+}
+.pw_modal_content_content_real {
+	width: 600px;
+	padding: 40px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+}
+body.pw_modal {
+	overflow: hidden;
+	padding-right:16px; 
+}
+
+.pw_misc_btn.pw_remove_estimate,.pw_misc_btn.pw_remove_estimate:hover, .pw_payment_type_holder .pw_add_new_payment_stage, .pw_payment_type_holder .pw_add_new_payment_stage:hover {
+	color: #c36 ;
+}
+.pw_single_comment_form_md textarea {
+	width: 100%;
+}
+a.pw_btn {
+	padding: 10px 20px;
+    border: 1px solid #61ce70;
+    background: #fff;
+    color: #61ce70 !important;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a.pw_btn:hover {
+	padding: 10px 20px;
+    border: 1px solid #61ce70;
+    background: #61ce70;
+    color: #fff !important;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.pw_sidebar .demo {
+	opacity: 0.5;
+}
+.pw_sidebar .demo:hover{
+	opacity: 1
+}
+.pw_sidebar .demo ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 20px;
+	display: block;
+}
+.pw_sidebar .demo ul li {
+	padding: 5px 0;
+	display: block;
+	border-bottom:  1px solid #eaeaea;
+	color: #666
+}
+
+.single.single-private_workrooms a:not(.pw_btn){
+	color: #888
+}.single.single-private_workrooms a:not(.pw_btn):hover{
+	color: #000
+}
+
+.single-private_workrooms hr {
+	margin-top: 0 !important;
+	margin: 20px 0 !important;
+}
+
+.pw_estimate.estimate_provided >hr {
+	margin: 20px auto !important;
+}
+.comments-list li {
+	margin-top: 0 
+}
+.comments-list .pw_post_author_avatar:not(.pw_post_author_avatar_system) {
+	width: 40px;
+}
+.pw_talking_with li {
+	margin-left: 0
+}
+.single-private_workrooms h4 {
+	margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.single-private_workrooms h6 {
+	margin-top: 0
+}
+.pw_modal_content_content_real hr {
+	margin: 20px 0
+}
+@media only screen and (max-width: 600px) {
+	.single-private_workrooms .col-lg-8 .d-flex {
+		display: block !important;
+	}
+	.pw_single_meta_holder .pw_single_meta:not(:first-child) {
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.pw_single_meta_holder {
+		padding-left: 20px;
+		padding-top: 20px;
+		border-left: 1px solid #eaeaea;
+
+	}
+	.pw_post_author_avatar.pw_main_avatar {
+		display: none;
+	}
+	#pw_submit_new_comment {
+		margin-bottom: 40px;
+	}
+	.comment-content {
+		padding: 0px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+	.pw_single_holder {
+		padding: 30px 40px 20px 20px
+	}
+	.pw_single_holder,.pw_comment_notice,.comments-list, .comment-content,.comment-type_system + .comment-type_regular .emp, .work_room_navigation,
+	.after_pagination,
+	.pw_single_comment_form
+	{
+		margin-left: 0
+	}
+	.pw_single_comment_form_title h4 {
+		margin-left: 30px;
+	}
+	.md_syntax {
+		display: none;
+	}
+	.pw_post_author_avatar_system {
+		border-radius: 0;
+		margin-left: -10px;
+	}
+	.comments-list .pw_avatar:not(.pw_post_author_avatar_system) {
+		display: none;
+	}
+	.comment-author.vcard{
+		padding-left: 10px;
+		border-left: 1px solid #eaeaea;
+		padding-bottom: 20px;
+	}
+	
+}

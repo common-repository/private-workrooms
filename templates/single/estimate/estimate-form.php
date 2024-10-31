@@ -1,0 +1,29 @@
+<?php
+/**
+ * Template for displaying a Estimate form for Private Workrooms
+ *
+ * This template can be overridden by copying it to yourtheme/private_workrooms/single/estimate/estimate-form.php.
+ *
+ * HOWEVER, on occasion we will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @package    Private_Workrooms
+ * @subpackage Private_Workrooms/templates/single/estimate
+ * @version 1.0.0
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+?>
+<form id="pw_new_estimate_form">
+	<div class="pw_new_estimate_form">
+		<div class="pw_form_block">
+			<h4><?php esc_html_e('Submit an estimate','private-workrooms')?></h4>
+			<hr>
+		</div>
+		<?php do_action( 'pw_estimate_form_content', $estimate );?>
+	</div>
+</form>

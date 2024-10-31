@@ -1,0 +1,310 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ */
+
+
+#pw_settings_page {
+	padding: 20px;
+	border: 1px solid #eaeaea;
+	margin: 20px;
+	background: #fff;
+	min-height: 50vh;
+	margin-left: 0;
+}
+
+#pw_settings_page_head > ul {
+	list-style: none;
+	margin: 20px 0;
+	margin-top: 30px;
+	padding: 20px 0;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+
+}
+#pw_settings_page_head > ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#pw_settings_page_head > ul li a {
+	text-decoration: none;
+	color: #999;
+} 
+
+#pw_settings_page_head > ul li.is_active a {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+a.pw_btn{
+	padding: 10px 20px;
+    border: 1px solid #61ce70;
+    background: #fff;
+    color: #61ce70 !important;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+	text-decoration: none;
+}
+
+a.pw_btn:hover{
+    background: #61ce70;
+    color: #fff !important;
+}
+
+#form_builder {
+	display: flex;
+}
+
+#form_drop {
+	background: #f9f9f9;
+	padding: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	min-width: 400px;
+}
+#form_drop > div {
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#form_drop > div:hover, #form_drag > div:hover {
+	cursor: pointer;
+	border-color: #61ce70
+}
+#form_drag #form_drag_misc > div {
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+#form_drag #form_drag_default > div {
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	width: 150px;
+	color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+#form_drag #form_drag_default {
+	margin-bottom: 30px;
+}
+
+#form_drag .block_head_remove {
+	display: none;
+}
+
+#form_drop div.block_settings, #form_drag div.block_settings{
+	margin-top: 20px; padding-top: 20px;
+	border-top: 1px solid #eaeaea;
+	display: none;
+}
+#form_drop .is_open div.block_settings{
+	display: block;
+}
+
+.block_settings div {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #eaeaea;
+	color: #666
+}
+.block_head {
+	font-weight:600;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block_settings div input {
+	border: 1px solid #eaeaea;
+	border-radius: 0;
+	width: 100%;
+	background: #f1f1f1;
+	margin-top: 5px;
+	outline: 0 !important;
+	box-shadow: none;
+}
+.block_settings div input:active, .block_settings div input:focus {
+	border: 1px solid #999;
+	outline: 0 !important;
+	box-shadow: none;
+}
+.form_element[data-default="true"] .pw_remove_form_element{
+	display: none;
+}
+.block_head_title small {
+	display: inline-block;
+	color: #999;
+	margin-left: 10px;
+}
+
+.pw_select_options > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+.pw_select_options > div > div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.pw_select_options > div > div:last-child{
+	margin-left: 10px;
+	padding: 5px;
+}
+.pw_select_options > div:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+.alert {
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.alert.alert-in-line{
+	display: inline-block;
+}
+.alert.alert-info {
+	color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.pw_settings_page_head_status {
+	display: flex;
+	align-items: center;
+}
+.pw_settings_page_head_status img {
+	margin-right: 20px;
+}
+.pw_admin_block {
+	display: flex;
+	margin-bottom: 30px;
+	padding: 40px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.pw_admin_block h3 {
+	margin: 0;
+	width: 150px;
+}
+.pw_admin_block >div {
+	max-width: 400px;
+}
+.pw_admin_block ul li {
+	display: block !important;
+}
+
+.alert-danger {
+	color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.pw_admin_input {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.circle-loader {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-left-color: #5cb85c;
+	animation: loader-spin 1.2s infinite linear;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50%;
+	width: 42px;
+	height: 42px;
+}
+.load-complete {
+	-webkit-animation: none;
+	animation: none;
+	border-color: #5cb85c;
+	transition: border 500ms ease-out;
+}
+.checkmark {
+	display: none;
+}
+.checkmark.draw:after {
+	animation-duration: 800ms;
+	animation-timing-function: ease;
+	animation-name: checkmark;
+	transform: scaleX(-1) rotate(135deg);
+}
+.checkmark:after {
+	opacity: 1;
+	height: 20px;
+	width: 10px;
+	transform-origin: left top;
+	border-right: 3px solid #5cb85c;
+	border-top: 3px solid #5cb85c;
+	content: '';
+	left: 10px;
+	top: 20px;
+	position: absolute;
+}
+@keyframes loader-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes checkmark {
+	0% {
+		height: 0;
+		width: 0;
+		opacity: 1;
+	}
+	20% {
+		height: 0;
+		width: 10px;
+		opacity: 1;
+	}
+	40% {
+		height: 20px;
+		width: 10px;
+		opacity: 1;
+	}
+	100% {
+		height: 20px;
+		width: 10px;
+		opacity: 1;
+	}
+}
+
+.pw_licinse_notice {
+	margin-bottom: 10px;
+	display: none;
+}
+
+.pw_admin_block_popup {
+	position: absolute;
+	background: rgba(0,0,0,.3);
+	padding: 100px;
+	z-index: 999;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-left: -20px;
+}
+.pw_admin_block_popup_content {
+	padding: 40px;
+	background: #fff;
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+}
